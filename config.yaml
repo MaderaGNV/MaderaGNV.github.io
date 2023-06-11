@@ -1,0 +1,19 @@
+baseURL: https://MaderaGNV.github.io
+disableKinds:
+  - section
+  - taxonomy
+  - term
+  - RSS
+  - robotsTXT
+defaultContentLanguage: en
+theme: hugo-scroll
+title: Madera Community Association
+params:
+  copyright: © Madera Community Association
+  favicon: images/favicon.png
+  hidedesignbyline: no
+  images: images/cover-image.jpg
+  invertSectionColors: no
+  meta:
+    keywords: Madera, Gainesville, Florida, Environment
+  title_guard: no
