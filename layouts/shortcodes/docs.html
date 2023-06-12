@@ -1,1 +1,1 @@
-{{ range readDir "static/docs" }} {{ if (findRE ".docx$" .Name) }} <a href="{{ .Name }}">{{ .Name }}</a> <br />{{ end }} {{ end }}
+{{ range readDir "static/docs" }} {{ if (findRE ".docx$" .Name) }} <a href="docs/{{ .Name }}">{{ .Name }}</a> <br />{{ end }} {{ end }}
