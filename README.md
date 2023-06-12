@@ -41,3 +41,5 @@ The contents of the website are determined by the files in this repository.
 
 When changes are made to the files (in the `main` branch of the repository), a [GitHub Actions script](https://github.com/MaderaGNV/MaderaGNV.github.io/blob/main/.github/workflows/blogdown.yaml) will run that re-renders the static site, pushes the contents of the new static site to the `gh-pages` branch of the repository, and then GitHub serves the content from there to the https://maderagnv.github.io/ destination.
 
+Website deployment generally takes a few minutes, unless GitHub decides to rebuild its dependency cache. Progress can be checked on https://github.com/MaderaGNV/MaderaGNV.github.io/actions
+
