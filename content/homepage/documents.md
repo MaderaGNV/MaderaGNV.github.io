@@ -12,6 +12,6 @@ header_menu: true
 
 [Parking, Signs and Garbage Rules](docs/rules-parking-signs-garbage)
 
-## Download Versions
+## Direct Download
 
 {{< docs >}}

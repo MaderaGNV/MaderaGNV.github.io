@@ -26,7 +26,8 @@ Existing MCA documents have been uploaded in both MS Word (`*.docx`) format and 
 
 2. The MS Word versions are located in the `static/docs` directory.
 
-3. Additionally, a link should be added to `content/homepage/documents.md` for the webpage version in 1. The links to the download versions are automatic 
+3. Additionally, a link should be added to `content/homepage/documents.md` for the webpage version in 1. The links to the download versions are automatically added:
+
 In `content/homepage/documents.md` there is a "shortcode" that looks like:
 ```
 {{< docs >}}

@@ -1,0 +1,1 @@
+{{ range readDir "content/docs" }} {{ if (findRE ".md$" .Name) }} <a href="docs/{{ .Name }}">{{ .Name }}</a> <br />{{ end }} {{ end }}
